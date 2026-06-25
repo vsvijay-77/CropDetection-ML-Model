@@ -1,0 +1,10 @@
+.env
+*.pyc
+venv/
+env/
+.venv/
+cropenv/
+.vscode/
+cropdetection.ipynb
+.ipynb_checkpoints/
+__pycache__/
