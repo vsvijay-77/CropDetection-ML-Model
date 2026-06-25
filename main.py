@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from router.crop import router
+from routes.crop import router
 from dotenv import load_dotenv
 
 
