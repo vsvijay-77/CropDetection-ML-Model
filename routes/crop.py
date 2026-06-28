@@ -15,7 +15,7 @@ API_KEY = os.getenv("API_KEY")
 def crop_detection(
     details: crop_detection,
     x_api_key: str = Header(...)
-):
+)
 
     if x_api_key != API_KEY:
         raise HTTPException(
